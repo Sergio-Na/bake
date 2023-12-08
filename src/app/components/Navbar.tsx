@@ -68,7 +68,7 @@ export default function Navbar() {
                     </button>
                 </div>
                 {/* Mobile Navigation */}
-                <div className={`${hamburgerToggle ? 'block' : 'hidden'} absolute top-0 left-0 w-full h-full bg-white md:hidden`}>
+                <div className={`${hamburgerToggle ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'} absolute top-0 right-0 w-full h-full bg-white md:hidden transition-transform duration-200 ease-in-out`}>
                     {/* Close Button */}
                     <div className="flex justify-end p-5">
                         <button onClick={() => setHamburgerToggle(false)}>
