@@ -70,13 +70,13 @@ export default function Navbar() {
                 {/* Mobile Navigation */}
                 <div className={`${hamburgerToggle ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'} absolute top-0 right-0 w-full h-full bg-white md:hidden transition-transform duration-200 ease-in-out`}>
                     {/* Close Button */}
-                    <div className="flex justify-end p-5">
+                    <div className="flex justify-end p-9">
                         <button onClick={() => setHamburgerToggle(false)}>
                             <Image
                                 src={xToggle}
                                 alt="close menu"
-                                width={24}
-                                height={24} />
+                                width={20}
+                                height={20} />
                         </button>
                     </div>
                     <div className="flex flex-col items-center justify-center">
