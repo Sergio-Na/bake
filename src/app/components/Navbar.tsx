@@ -19,7 +19,7 @@ export default function Navbar() {
     const [hamburgerToggle, setHamburgerToggle] = useState(false);
 
     return (
-        <header className="mb-8 border-b bg-special">
+        <header className="mb-8  bg-special">
             <div className="flex items-center justify-between mx-auto px-6 py-3 sm:px-6 sm:py-4 md:px-4 md:py-2 lg:max-w-5xl xl:max-w-7xl">
                 <div className="flex items-center">
                     <Link href="/" className="flex items-center">
