@@ -30,10 +30,11 @@ export default function Navbar() {
                             priority
                             objectFit="contain"
                         />
+                        <h1 className="text-xl md:text-3xl font-bold ml-3">
+                            <span className="text-primary">Cakes</span>
+                        </h1>
                     </Link>
-                    <h1 className="text-xl md:text-3xl font-bold ml-3">
-                        <span className="text-primary">Cakes</span>
-                    </h1>
+
                 </div>
 
                 <nav className="hidden md:flex gap-8 lg:gap-12">
